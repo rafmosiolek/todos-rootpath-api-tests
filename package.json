@@ -1,0 +1,27 @@
+{
+  "name": "todos-rootpath-api-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for dummy rootpath api",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafmosiolek/todos-rootpath-api-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafmosiolek/todos-rootpath-api-tests/issues"
+  },
+  "homepage": "https://github.com/rafmosiolek/todos-rootpath-api-tests#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
